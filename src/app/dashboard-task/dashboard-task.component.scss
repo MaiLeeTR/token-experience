@@ -1,0 +1,28 @@
+.dashboard {
+  padding: 20px 32px 32px;
+}
+
+.dashboard-section {
+  padding: 36px 0;
+}
+
+.dashboard-section:first-of-type {
+  margin-bottom: 12px;
+}
+
+.dashboard-title {
+  font: var(--saf-type-heading-default-2xl-strong-standard);
+  margin: 0 0 12px;
+}
+
+.dashboard-desc {
+  font: var(--saf-type-body-default-md-regular-standard);
+  margin-bottom: 36px;
+}
+
+.cards {
+  display: grid;
+  gap: 60px;
+  grid-template-columns: repeat(4, minmax(auto, 283px));
+  padding: 0 24px;
+}
