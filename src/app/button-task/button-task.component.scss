@@ -1,28 +1,22 @@
 button {
   align-items: center;
+	box-sizing: border-box;
+	display: flex;
+	position: relative;
+	text-align: left;
+
+	/* Uncomment the properties below and define the design token values */
 	// background: ;
 	// border: ;
 	// border-radius: ;
-	box-sizing: border-box;
 	// color: ;
-	display: flex;
 	// font: ;
 	// padding: ;
-	position: relative;
-	text-align: left;
 }
 
 button:hover {
-  // background: ;
-  // border: ;
+	/* Uncomment the properties below and define the design token values */
+	// background: ;
+	// border: ;
 	// color: ;
-}
-
-button:active {
-  // background: ;
-	// color: ;
-}
-
-button:focus {
-  // box-shadow: ;
 }
