@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
-import { SafBadge, SafSrOnly, SafIcon, SafCard } from '@saffron/core-components';
+import { SafBadge, SafSrOnly, SafIcon, SafCard, SafAnchor } from '@saffron/core-components';
 
 SafBadge();
 SafSrOnly();
 SafIcon();
 SafCard();
+SafAnchor();
 
 @Component({
   selector: 'app-root',
